@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.table, th, td{
+  border: 1px solid black;
+  padding: 5px;
+  border-spacing: 3px;
+  margin: auto;
+}
+tr:nth-child(even){
+  background-color: lightgreen;
+}
