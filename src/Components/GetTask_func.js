@@ -35,6 +35,7 @@ function Gettask_func() {
      item.role.toLowerCase().includes(e.target.value.toLowerCase()) ||
      item.email.toLowerCase().includes(e.target.value.toLowerCase())
     )
+    
     setPosts(SearchData)
     }
     const InputnewData=(e)=>{
